@@ -74,17 +74,16 @@ FADD.D f2, f3, f4
 
 ```
 .
-├── main.py                  # Driver script (currently your full project)
+├── main.py                  # Meant to be driver script (However currently is the entire project)
 ├── simulator/
-│   └── processor.py         # CPU core (to be split from main.py later)
+│   └── processor.py         # Yet to be written (main.py works independently)
 ├── tests/
-│   └── example_prog.txt     # Example instruction sequence
+│   └── example_prog.txt     # Example instruction sequence (Yet to be added)
 ├── README.md
-├── requirements.txt
-└── .gitignore
+├── requirements.txt 
 ```
 
-Currently everything is inside **main (3).py**, but the project will later be split into `processor.py` and a cleaner `main.py`.
+Currently everything is inside **main.py**, but the project will later be split into `processor.py` and a cleaner `main.py`.
 
 ---
 
